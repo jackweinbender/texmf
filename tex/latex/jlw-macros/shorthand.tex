@@ -1,0 +1,22 @@
+%% Simple Shorthand-- an ecclectic mix.
+
+% Masoretic Text (MT) Command
+\newcommand{\mt}[0] {%
+  \if@fakesmallcaps
+   {\smaller MT}\xspace%
+  \else
+    \textsc{mt}\xspace%
+  \fi
+}
+
+% Septuagint (LXX) Command
+\newcommand{\LXX}[0] {%
+  \if@fakesmallcaps
+   {\smaller LXX}\xspace%
+  \else
+    \textsc{lxx}\xspace%
+  \fi
+}
+
+% Circa command
+\newcommand{\ca}[1]{c.\xspace#1}
